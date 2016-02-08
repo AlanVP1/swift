@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/sparta/Documents/SM2/.build/debug/SM2.o/SM2/master.swiftdeps"
+  },
+  "/home/sparta/Documents/SM2/Sources/main.swift": {
+    "dependencies": "/home/sparta/Documents/SM2/.build/debug/SM2.o/SM2/main.d",
+    "object": "/home/sparta/Documents/SM2/.build/debug/SM2.o/Sources/main.swift.o",
+    "swiftmodule": "/home/sparta/Documents/SM2/.build/debug/SM2.o/SM2/main~partial.swiftmodule",
+    "swift-dependencies": "/home/sparta/Documents/SM2/.build/debug/SM2.o/SM2/main.swiftdeps"
+  }
+}

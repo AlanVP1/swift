@@ -1,0 +1,230 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+depends-top-level:
+- "StringLiteralType"
+- "%"
+- "=="
+- !private "~="
+- "..<"
+- "FloatLiteralType"
+- "print"
+- "!="
+- "IntegerLiteralType"
+- "..."
+- "&&"
+depends-member:
+- ["Ps22BidirectionalIndexType", "Distance"]
+- ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- ["Ps22BidirectionalIndexType", "_DisabledRangeIndex"]
+- ["Ps21BitwiseOperationsType", "Distance"]
+- ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- ["Ps21BitwiseOperationsType", "_DisabledRangeIndex"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "Distance"]
+- ["Ps11CVarArgType", "IntegerLiteralType"]
+- ["Ps11CVarArgType", "_DisabledRangeIndex"]
+- ["Vs9Character", "deinit"]
+- ["Vs14ClosedInterval", "Bound"]
+- ["Vs14ClosedInterval", "deinit"]
+- ["Ps14CollectionType", "Generator"]
+- ["Ps10Comparable", "Distance"]
+- ["Ps10Comparable", "IntegerLiteralType"]
+- ["Ps10Comparable", "_DisabledRangeIndex"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Bound"]
+- ["Ps28CustomDebugStringConvertible", "Generator"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "Bound"]
+- ["Ps23CustomStringConvertible", "Distance"]
+- ["Ps23CustomStringConvertible", "Generator"]
+- ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Sd", "deinit"]
+- ["Ps9Equatable", "Bound"]
+- ["Ps9Equatable", "Distance"]
+- ["Ps9Equatable", "Generator"]
+- ["Ps9Equatable", "IntegerLiteralType"]
+- ["Ps9Equatable", "_DisabledRangeIndex"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["Sf", "deinit"]
+- ["Ps16ForwardIndexType", "Distance"]
+- ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- ["Ps16ForwardIndexType", "_DisabledRangeIndex"]
+- ["Ps13GeneratorType", "Element"]
+- ["Vs16HalfOpenInterval", "Bound"]
+- ["Ps8Hashable", "Distance"]
+- ["Ps8Hashable", "IntegerLiteralType"]
+- ["Ps8Hashable", "_DisabledRangeIndex"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps9Indexable", "Generator"]
+- ["Si", "Distance"]
+- ["Si", "IntegerLiteralType"]
+- ["Si", "_DisabledRangeIndex"]
+- ["Si", "deinit"]
+- ["Vs5Int16", "deinit"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int64", "deinit"]
+- ["Vs4Int8", "deinit"]
+- ["Ps21IntegerArithmeticType", "Distance"]
+- ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- ["Ps21IntegerArithmeticType", "_DisabledRangeIndex"]
+- ["Ps25IntegerLiteralConvertible", "Distance"]
+- ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- ["Ps25IntegerLiteralConvertible", "_DisabledRangeIndex"]
+- ["Ps11IntegerType", "Distance"]
+- ["Ps11IntegerType", "IntegerLiteralType"]
+- ["Ps11IntegerType", "_DisabledRangeIndex"]
+- ["Ps12IntervalType", "Bound"]
+- ["Ps14MirrorPathType", "Distance"]
+- ["Ps14MirrorPathType", "IntegerLiteralType"]
+- ["Ps14MirrorPathType", "_DisabledRangeIndex"]
+- ["Ps14MirrorPathType", "init"]
+- ["Sq", "deinit"]
+- ["Ps16OutputStreamType", "init"]
+- ["Ps21RandomAccessIndexType", "Distance"]
+- ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- ["Ps21RandomAccessIndexType", "_DisabledRangeIndex"]
+- ["Vs5Range", "Generator"]
+- ["Vs5Range", "deinit"]
+- ["Vs14RangeGenerator", "Element"]
+- ["Ps12SequenceType", "Element"]
+- ["Ps12SequenceType", "Generator"]
+- ["Ps17SignedIntegerType", "Distance"]
+- ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- ["Ps17SignedIntegerType", "_DisabledRangeIndex"]
+- ["Ps16SignedNumberType", "Distance"]
+- ["Ps16SignedNumberType", "IntegerLiteralType"]
+- ["Ps16SignedNumberType", "_DisabledRangeIndex"]
+- ["Ps10Streamable", "init"]
+- ["Ps10Strideable", "Distance"]
+- ["Ps10Strideable", "IntegerLiteralType"]
+- ["Ps10Strideable", "_DisabledRangeIndex"]
+- ["SS", "init"]
+- ["Ps30StringInterpolationConvertible", "init"]
+- ["Ps24StringLiteralConvertible", "init"]
+- ["Su", "deinit"]
+- ["Vs6UInt16", "deinit"]
+- ["Vs6UInt32", "deinit"]
+- ["Vs6UInt64", "deinit"]
+- ["Vs5UInt8", "deinit"]
+- ["Sc", "deinit"]
+- ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "_DisabledRangeIndex"]
+- ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- ["Ps14_Incrementable", "Distance"]
+- ["Ps14_Incrementable", "IntegerLiteralType"]
+- ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- ["Ps22_IntegerArithmeticType", "Distance"]
+- ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- ["Ps22_IntegerArithmeticType", "_DisabledRangeIndex"]
+- ["Ps12_IntegerType", "Distance"]
+- ["Ps12_IntegerType", "IntegerLiteralType"]
+- ["Ps12_IntegerType", "_DisabledRangeIndex"]
+- ["Ps22_RandomAccessAmbiguity", "Distance"]
+- ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- ["Ps22_RandomAccessAmbiguity", "_DisabledRangeIndex"]
+- ["Ps12_Reflectable", "Bound"]
+- ["Ps12_Reflectable", "Distance"]
+- ["Ps12_Reflectable", "Generator"]
+- ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "_DisabledRangeIndex"]
+- ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps18_SignedIntegerType", "Distance"]
+- ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+- ["Ps18_SignedIntegerType", "_DisabledRangeIndex"]
+depends-nominal:
+- "Ps22BidirectionalIndexType"
+- "Ps21BitwiseOperationsType"
+- "Sb"
+- "Ps25BooleanLiteralConvertible"
+- "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Vs9Character"
+- "Vs14ClosedInterval"
+- "Ps14CollectionType"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "Sf"
+- "Ps16ForwardIndexType"
+- "Ps13GeneratorType"
+- "Vs16HalfOpenInterval"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
+- "Ps21IntegerArithmeticType"
+- "Ps25IntegerLiteralConvertible"
+- "Ps11IntegerType"
+- "Ps12IntervalType"
+- "Ps14MirrorPathType"
+- "Sq"
+- "Ps16OutputStreamType"
+- "Ps21RandomAccessIndexType"
+- "Vs5Range"
+- "Vs14RangeGenerator"
+- "Ps12SequenceType"
+- "Ps17SignedIntegerType"
+- "Ps16SignedNumberType"
+- "Ps10Streamable"
+- "Ps10Strideable"
+- "SS"
+- "Ps30StringInterpolationConvertible"
+- "Ps24StringLiteralConvertible"
+- "Su"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Vs5UInt8"
+- "Sc"
+- "Ps31UnicodeScalarLiteralConvertible"
+- "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps32_BuiltinStringLiteralConvertible"
+- "Ps37_BuiltinUTF16StringLiteralConvertible"
+- "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- "Ps14_Incrementable"
+- "Ps22_IntegerArithmeticType"
+- "Ps12_IntegerType"
+- "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/home/sparta/swift/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/sparta/swift/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/sparta/swift/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/sparta/swift/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/sparta/swift/usr/lib/swift/shims/LibcShims.h"
+- "/home/sparta/swift/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/sparta/swift/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/sparta/swift/usr/lib/swift/shims/RefCount.h"
+- "/home/sparta/swift/usr/lib/swift/shims/HeapObject.h"
+- "/home/sparta/swift/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/sparta/swift/usr/lib/swift/shims/FoundationShims.h"
+- "/home/sparta/swift/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/sparta/swift/usr/lib/swift/shims/module.map"
+interface-hash: "551d2b6b1cbefd56638cdce62ff3e382"

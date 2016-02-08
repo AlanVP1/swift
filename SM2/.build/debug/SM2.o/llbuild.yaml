@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<SM2>]
+  SM2: [<SM2>]
+
+commands:
+  <SM2-swiftc>:
+    tool: swift-compiler
+    executable: "/home/sparta/swift/usr/bin/swiftc"
+    inputs: ["/home/sparta/Documents/SM2/Sources/main.swift"]
+    outputs: ["<SM2-swiftc>","/home/sparta/Documents/SM2/.build/debug/SM2.swiftmodule","/home/sparta/Documents/SM2/.build/debug/SM2.o/Sources/main.swift.o"]
+    module-name: "SM2"
+    module-output-path: "/home/sparta/Documents/SM2/.build/debug/SM2.swiftmodule"
+    is-library: false
+    sources: ["/home/sparta/Documents/SM2/Sources/main.swift"]
+    objects: ["/home/sparta/Documents/SM2/.build/debug/SM2.o/Sources/main.swift.o"]
+    import-paths: ["/home/sparta/Documents/SM2/.build/debug"]
+    temps-path: "/home/sparta/Documents/SM2/.build/debug/SM2.o/SM2"
+    other-args: ["-j8","-Onone","-g","-I","/usr/local/include","-D","SWIFT_PACKAGE"]
+  <SM2>:
+    tool: shell
+    inputs: ["<SM2-swiftc>","/home/sparta/Documents/SM2/.build/debug/SM2.o/Sources/main.swift.o"]
+    outputs: ["<SM2>","/home/sparta/Documents/SM2/.build/debug/SM2"]
+    args: ["/home/sparta/swift/usr/bin/swiftc","-o","/home/sparta/Documents/SM2/.build/debug/SM2","/home/sparta/Documents/SM2/.build/debug/SM2.o/Sources/main.swift.o","-g","-L/usr/local/lib"]
+    description: "Linking Executable:  .build/debug/SM2"

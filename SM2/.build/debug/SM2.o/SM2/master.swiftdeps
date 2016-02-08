@@ -1,0 +1,5 @@
+version: "Swift version 2.2-dev (LLVM f90171f6b9, Clang fe39b0b18f, Swift a476c2828a)"
+options: "0c5c8de7b81f07e6310f9c0f7c6cd87e"
+build_time: [508222717, 156844000]
+inputs:
+  "/home/sparta/Documents/SM2/Sources/main.swift": [508222710, 0]
